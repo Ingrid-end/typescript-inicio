@@ -1,0 +1,14 @@
+{
+// Opções de compilação
+"compilerOptions": {
+    //gravar os arquivos resultantes
+    "outDir": "dist/js",
+    //código JavaScript com a linguagem JavaScript na versão do ECMAScript 6
+    "target": "ES6",
+    // Não vai gerar um arquivo com problema, enquanto o Typescript não estiver 
+    // Passsando na compilação
+    "noEmitOnError": true,
+},
+ //  tudo que tiver dentro da "app", que for ".ts"  converte e jogue na pasta "dist.js
+ "include": ["app/**/*"],
+}
