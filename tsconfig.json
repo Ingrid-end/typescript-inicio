@@ -8,6 +8,8 @@
     // Não vai gerar um arquivo com problema, enquanto o Typescript não estiver 
     // Passsando na compilação
     "noEmitOnError": true,
+    // Não adotar o tipo any implicitamente, (any= nenhum) 
+    "noImplicitAny": true,
 },
  //  tudo que tiver dentro da "app", que for ".ts"  converte e jogue na pasta "dist.js
  "include": ["app/**/*"],
